@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+<style>
+    body{
+        background-color: lightblue;
+    }
+</style>
+</head>
+<body>
+    <div id="maindiv">
+    <fieldset>
+                <legend>login details</legend>
+                    <label>username:<input type="text" id="username" name="username" size="10" maxlenght="12"></label><br/><br/>
+                
+                <label>email:<input type="email1"  name="email1" id="email1"></label><br/><br/>
+                
+                    <label>password:<input type="password" id="password" name="password"></label>
+                
+            </fieldset>           
+                <table>
+                   <!-- First name -->
+                   <tr>
+                       <td><label for="firstname">Firstname</label> </td>
+                       <td><input type="text" name="firstame" id="firstname"></td>
+                   </tr>
+                   <!-- last name -->
+                   <tr>
+                       <td><label for="lastname">lastname</label> </td>
+                       <td><input type="text" name="lastname" id="lastname"></td>
+                   </tr>
+                   <!-- Date of Birth -->
+           <tr>
+                       <td>DATE OF BIRTH</td>
+                   <td><select name="date" id="date">
+                       <option>date</option>
+                       <option>1</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4</option>
+                       <option>5</option>
+                       <option>6</option>
+                       <option>7</option>
+                       <option>8</option>
+                       <option>9</option>
+                       <option>10</option>
+                       <option>11</option>
+                       <option>12</option>
+                       <option>13</option>
+                       <option>14</option>
+                       <option>15</option>
+                       <option>16</option>
+                       <option>17</option>
+                       <option>18</option>
+                       <option>19</option>
+                       <option>20</option>
+                       <option>21</option>
+                       <option>22</option>
+                       <option>23</option>
+                       <option>24</option>
+                       <option>25</option>
+                       <option>26</option>
+                       <option>27</option>
+                       <option>28</option>
+                       <option>29</option>
+                       <option>30</option>
+                       <option>31</option>
+                   </select>
+                   <!-- Month -->
+                   <select name="month" id="month">
+                       <option>Month</option>
+                       <option>January</option>
+                       <option>February</option>
+                       <option>March</option>
+                       <option>Aprail</option>
+                       <option>May</option>
+                       <option>June</option>
+                       <option>July</option>
+                       <option>Agust</option>
+                       <option>September</option>
+                       <option>October</option>
+                       <option>November</option>
+                       <option>Desember</option>
+                   </select>
+                   <!-- Year -->
+                   <select name="year" id="year">
+                       <option>Year</option>
+                       <option>2000</option>
+                       <option>2001</option>
+                       <option>2002</option>
+                       <option>2003</option>
+                       <option>2004</option>
+                       <option>2005</option>
+                       <option>2006</option>
+                       <option>2006</option>
+                       <option>2007</option>
+                       <option>2008</option>
+                       <option>2009</option>
+                       <option>2010</option>
+                       <option>2011</option>
+                       <option>2012</option>
+                       <option>2013</option>
+                       <option>2014</option>
+                       <option>2015</option>
+                       <option>2016</option>
+                       <option>2017</option>
+                       <option>2018</option>
+                       <option>2019</option>
+                       <option>2020</option>
+                       <option>2021</option>
+                       <option>2022</option>
+                       <option>2023</option>
+                   </select>
+               </td>
+           </tr>
+                
+                
+                <tr>
+                <!-- Email ID -->
+                <td><label for="email">Email ID</label></td>
+                <td><input type="email Id" name="email" id="email"></td>
+                <tr>
+                   <!-- mobile number -->
+                   <td><label for="number">Mobile Number</label></td>
+                   <td><input type="text" name="number" id="number"></td>
+                </tr>
+                 <!-- Gender -->
+                <tr>
+                   <td>Gender</td>
+                   <!---- Male-->
+                        <td><label for="male">Male</label><input type="radio" id="male" name="gender">
+                            <label for="female"> Female</label><input type="radio" id="female" name="gender">
+                    <!---- Female-->
+                       </td>
+                    </tr>
+               <!-- adress -->
+               <tr>
+                   <td><label for="address">Adress</label></td>
+                   <td><textarea  cols="30" name="address" id="address" rows="5"></textarea></td>
+               </tr>
+               <tr>
+                   <!-- city -->
+                   <td><label for="city">City</label></td>
+                   <td><input type="text" name="city" id="city"></td>
+               </tr>
+               <tr>
+                   <!-- pin Code -->
+                 <td><label for="pin">Pincode</label></td>
+                 <td><input type="password" name="pin" id="pin"></td>
+               </tr>
+               <tr>
+                   <!-- state -->
+                   <td><label for="state">State</label></td>
+                   <td><input type="text" name="state" id="state"></td>
+               </tr>
+               <tr>
+                   <!-- country -->
+                   <td><label for="country">Country</label></td>
+                   <td><input name="country" id="country" type="country"></td>
+               </tr>
+               
+                   <!-- Hobbies -->
+                    <tr>
+                    <td>Hobbies</td>
+                    <td> <!---- Drawing--><label for="Drawing">Drawing<input name="hobbies" id="Drawing" type="checkbox"></label>
+                    <!---- Singing--><label for="Singing">Singing<input name="hobbies" id="Singing" type="checkbox"></label>
+                    <!---- Dancing--><label for="Dancing">Dancing<input name="hobbies" id="Dancing" type="checkbox"></label>
+                    <!---- Sketching--><label for="Sketching">Sketching<input id="Sketching"  name="hobbies" type="checkbox"></label><br>
+                    <!---- Other--><label for="other">Other<input name="hobbies" id="other" type="checkbox"> <input name="hobbies" type="text"></label>
+                                   </td>
+                               </tr>
+               <!-- Qualifition -->
+               <tr>
+                   <td><label for="Qulification">Qulification</label></td>
+                   <td><fieldset>
+                       <table>
+                           <tr>
+                           <th>si.no</th>
+                           <th>Examination</th>
+                           <th>board</th>
+                           <th>percentage</th>
+                           <th>year of passlog</th>
+                       </tr>
+                       <tr>
+                           <td>1</td>
+                           <td>class x</td>
+                           <td><input type="text" name="xboard" id="inp1"></td>
+                           <td><input type="text" name="x%" id="inp2"></td>
+                           <td><input type="text" name="xyear" id="inp3"></td>
+                       </tr>
+                       <tr>
+                           <td>2</td>
+                           <td>class xii</td>
+                           <td><input type="text" name="xiiboard" id="inp4"></td>
+                           <td><input type="text" name="xii%" id="inp5"></td>
+                           <td><input type="text" name="xiiyear" id="inp6"></td>
+                       </tr>
+                       <tr>
+                           <td>3</td>
+                           <td>graduation</td>
+                           <td><input type="text" name="gradboard" id="inp7"></td>
+                           <td><input type="text" name="grad%" id="inp8"></td>
+                           <td><input type="text" name="gradyear" id="inp9"></td>
+                       </tr>
+                       <tr>
+                           <td>4</td>
+                           <td>master</td>
+                           <td><input type="text" name="mastboard" id="inp10"></td>
+                           <td><input type="text" name="mast%" id="inp11"></td>
+                           <td><input type="text" name="mastyear" id="inp12"></td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td></td>
+                           <td>(10 char max)</td>
+                           <td>(upto 2 daclmal)</td>
+                           <td></td>
+                       </tr>
+                   </table>    
+               </fieldset></td>
+           </tr>
+           <!-- courses applied for -->
+           <tr>
+               <td><label for="courses applied for">courses <br>applied for</label></td>
+             <td><!-- BCA --><label for="BCA">BCA<input id="BCA" name="courses" type="radio"></label>
+               <!-- B.COM --><label for="B.COM">B.COM<input id="B.COM" name="courses" type="radio"></label>
+               <!-- B.Sc --><label for="B.Sc">B.Sc<input id="B.Sc" name="courses" type="radio"></label>
+               <!-- B.A --><label for="B.A">B.A<input id="B.A" name="courses" type="radio"></label></td>
+           </tr>
+           <!-- submit -->
+           
+          
+           
+       </table>
+       </fieldset>
+   </form>
+   <button onclick="add()">Submit</button>
+</div>
+   <div id="showdata" style="    display: none;
+   width: 100px;
+   color: #000;
+   margin-left: 10%;
+">
+    
+<p id="showdata"></p>
+</div>
+   <script type="module" src="app.js"></script>
+   </body>
+   </html>
